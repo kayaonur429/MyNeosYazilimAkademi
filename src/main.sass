@@ -1,0 +1,65 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+img
+    max-width: 100%
+
+.AnaSayfa
+    width: 100%
+    background-color: #2b2d30
+    color: #fff
+
+.kart
+    display: flex
+    justify-content: center
+    margin-left: 12rem
+    margin-bottom: 10rem
+
+.Contact
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+@media screen and (max-width: 480px)
+    .AnaSayfa
+        width: 100%
+    .kart
+        display: block
+        margin-left: 0
+        padding: 0
+        width: 100%
+    label
+        left: 0%
+        top: 0%
+        margin-bottom: 6rem!important
+    #slider1
+        width: 414px!important
+        height: 414px!important
+    #slider2
+        width: 400px!important
+        height: 414px!important
+
+    .MufredatBaba
+        overflow: hidden
+        width: 100%
+        margin-top: 2rem
+        
+    .Mufredat
+        margin-left: 1.5rem
+        height: auto!important
+    .Map
+        display: none
+    
+
+@import './Components/NeosNavbar/NeosNavbar.sass'
+@import './Components/NeosSlider/NeosSlider.sass'
+@import './Components/Hakkimizda/Hakkimizda.sass'
+@import './Components/Subeler/Subeler.sass'
+@import './Components/Mufredat/Mufredat.sass'
+@import './Components/Sertifikalar/Sertifikalar.sass'
+@import './Components/SertifikaInfo/SertifikaInfo.sass'
+@import './Components/Iletisim/Iletisim.sass'
+@import './Components/NeosFooter/NeosFooter'
+
